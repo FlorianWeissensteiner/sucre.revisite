@@ -6,12 +6,12 @@ function NavigationBar() {
   return (
     <div className='navigation-bar'>
       <span className='left-side'>
-        <Link to='/'>
+        <Link to='/sucre.revisite'>
           Le Sucre Revisité
         </Link>
       </span>
       <span className='right-side'>
-        <Link to='/contact' className='contact-button'>
+        <Link to='/sucre.revisite/contact' className='contact-button'>
           Contact us
         </Link>
       </span>

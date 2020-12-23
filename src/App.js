@@ -13,8 +13,8 @@ function App() {
       <Router>
         <NavigationBar />
         <Switch>
-          <Route path='/' exact component={Gallery}/>
-          <Route path='/contact' component={Contact} />
+          <Route path='/sucre.revisite' exact component={Gallery}/>
+          <Route path='/sucre.revisite/contact' component={Contact} />
         </Switch>
       </Router>
     </>

@@ -11,21 +11,21 @@ function Gallery() {
       <div className='content'>
         <div className='cake-selection'>
           <CakeTypeRadioButton
-            src='images/birthday/cake1.jpg'
+            src='sucre.revisite/images/birthday/cake1.jpg'
             text="Birthday"
             value="birthday"
             selected={selected}
             onClick={setSelected}
           />
           <CakeTypeRadioButton
-            src='images/wedding/cake1.jpg'
+            src='sucre.revisite/images/wedding/cake1.jpg'
             text="Wedding"
             value="wedding"
             selected={selected}
             onClick={setSelected}
           />
           <CakeTypeRadioButton
-            src='images/teens/cake1.jpg'
+            src='sucre.revisite/images/teens/cake1.jpg'
             text="Teens"
             value="teens"
             selected={selected}
@@ -33,9 +33,9 @@ function Gallery() {
           />
         </div>
         <div className="imagegrid-container">
-          {selected === 'birthday' && <ImageGrid folderPath='images/birthday/' />}
-          {selected === 'wedding' && <ImageGrid folderPath='images/wedding/' />}
-          {selected === 'teens' && <ImageGrid folderPath='images/teens/' />}
+          {selected === 'birthday' && <ImageGrid folderPath='sucre.revisite/images/birthday/' />}
+          {selected === 'wedding' && <ImageGrid folderPath='sucre.revisite/images/wedding/' />}
+          {selected === 'teens' && <ImageGrid folderPath='sucre.revisite/images/teens/' />}
         </div>
       </div>
   );
