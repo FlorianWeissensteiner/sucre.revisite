@@ -1,0 +1,37 @@
+.navigation-bar {
+  display: flex;
+  background: black;
+  padding: .4em 2em .4em .8em;
+  font-family: 'Cedarville Cursive', cursive;
+  text-decoration: none;
+}
+
+.left-side {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  font-size: xx-large;
+}
+
+.right-side {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-button {
+  &:hover {
+    background-color: #222222;
+  }
+  
+  padding: 0 1em 0 1em;
+  font-size: x-large;
+  border: none;
+  background: black;
+  
+  transition: background-color 0.3s linear;
+}
