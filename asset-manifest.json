@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sucre.revisite/static/css/main.b4cbc962.chunk.css",
-    "main.js": "/sucre.revisite/static/js/main.e73e41ce.chunk.js",
-    "main.js.map": "/sucre.revisite/static/js/main.e73e41ce.chunk.js.map",
+    "main.js": "/sucre.revisite/static/js/main.77193b04.chunk.js",
+    "main.js.map": "/sucre.revisite/static/js/main.77193b04.chunk.js.map",
     "runtime-main.js": "/sucre.revisite/static/js/runtime-main.d1c75f52.js",
     "runtime-main.js.map": "/sucre.revisite/static/js/runtime-main.d1c75f52.js.map",
     "static/js/2.0a1ff1f7.chunk.js": "/sucre.revisite/static/js/2.0a1ff1f7.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d1c75f52.js",
     "static/js/2.0a1ff1f7.chunk.js",
     "static/css/main.b4cbc962.chunk.css",
-    "static/js/main.e73e41ce.chunk.js"
+    "static/js/main.77193b04.chunk.js"
   ]
 }
